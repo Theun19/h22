@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="footer.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <a href="index.html"><h5 class="btn btn-light btn-display-4">HOME</h5></a>
+                <a href="overmij.html"><h5 class="btn btn-light btn-display-4">OVER MIJ</h5></a>
+                <a href="contact.html"><h5 class="btn btn-light btn-display-4">CONTACT</h5></a>
+            </div>
+          </div>
+          <nav class="navbar navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+        <div class="container-sm p-2">
+            <div class="container-sm p-2">
+                <div class="row justify-content-center">
+                    <div class="col-sm-2" >
+                    <H1 class="display-2 ">Contact</H1>
+                </div>
+                </div>
+                <form method="post" action="https://formspree.io/f/mgeqvqyg" class="class row g-3">
+                  <div class="col-sm-6">
+                    <label for="Voornaam" class="form-label">Voornaam</label>
+                    <input type="text" class="form-control" id="Voornaam" placeholder="Theun" name="voornaam">
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="Achternaam" class="form-label">Achternaam</label>
+                    <input type="text" class="form-control" id="Achternaam" placeholder="van Giffen" name="achternaam"> 
+                  </div>
+                  <div class="class col-sm-8">
+                    <label for="E-mail" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="E-mail" placeholder="tvangiffen@hotmail.com" name="e-mail">
+                  </div>
+                  <div class="class col-sm-4">
+                    <label for="Telefoonnummer" class="form-label">Telefoonnummer</label>
+                    <input type="text" class="form-control" id="Telefoonnummer" placeholder="+31(0)627838003" name="telefoonnummer">
+                  </div>
+                  <div class="class col-sm-12"></div>
+                  <label for="bericht" class="form-label">Wat is uw favoriete album en nummer?</label>
+                  <textarea name="text" id="bericht" cols="30" rows="3" required></textarea>
+                <button  type="submit" class="col-sm-2 btn btn-success bln-xl">Verzend</button>
+                </form>
+                <footer><div class="footer">&copy;Theun van Giffen</div></footer>
+            </div>
+          </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
